@@ -13,7 +13,7 @@ if (value > 0) {
 
 	console.log('wynik dodatni');
 
-} else if (value ==0) {
+} else if (value ===0) {
 
 	alert('wyszło 0, patrzymy jak piją')
 	console.log('mamy 0 na pokładzie');

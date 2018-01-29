@@ -1,6 +1,6 @@
 
-var a = 1;
-var b = 10;
+var a = 2;
+var b = 4;
 var value = (a * a) - (2 * a * b) + (b * b);
 
 alert('(a * a) - (2 * a * b) + (b * b)' +  value);
@@ -13,13 +13,11 @@ if (value > 0) {
 
 	console.log('wynik dodatni');
 
+} else if (value ==0) {
+
+	alert('wyszło 0, patrzymy jak piją')
+	console.log('mamy 0 na pokładzie');
 } else {
 
-	console.log('wynik ujemny albo 0');
-}
-
-if (value == 0) {
-
-	alert('wyszło 0, patrzymy, jak piją')
-	console.log('mamy 0 na pokładzie')
+	console.log('wynik ujemny, koniec świata')
 }
